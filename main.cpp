@@ -3,8 +3,8 @@
 using namespace std;
 
 string ucusGuvenligiKontrol(string droneIsmi, int yuk, int hiz, int yukseklik) {
-    int consumed = (hiz / 10) * 5;
-    int pil = 100 - consumed;
+    int harcananpil = (hiz / 10) * 5;
+    int pil = 100 - harcananpil;
     if (pil < 0) pil = 0;
 
     // Ekrana tüm değerleri yazdır
